@@ -1,0 +1,175 @@
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+body{margin:0px;}
+
+.pay_now .container{ margin: 0 auto;  width:760px;}
+	
+.pay_now{font-family: "Open Sans",sans-serif; overflow: hidden;font-size: 13px;}
+	
+.steps_div { float: left;  margin: 0 0 45px;  width: 100%;}
+	
+.pay_now .steps {
+    background-color: #009440;
+    border-radius: 100%;
+    color: white;
+    float: left;
+    font-size: 30px;
+    font-weight: bold;
+    height: 60px;
+    letter-spacing: 1px;
+    line-height: 14px;
+    padding-top: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 63px;
+}
+
+.pay_now .detail{ display: table-cell;  float: left;  margin-left: 30px;  vertical-align: top;	width: 85%;}
+
+.pay_now h1 b { color: #009440;  font-size: inherit; font-weight: bolder;}
+
+.pay_now h1 { border-top: 1px solid #ececec; color: #505050; display: inline-block; font-size: 32px; margin: 30px 0 24px; padding: 20px 0 0; position: relative; text-transform: uppercase;
+	  
+}
+
+.pay_now ul li::before { background: none repeat scroll 0 0 #9c9c9c;  content: ""; float: left; height: 2px;  margin-right: 10px;  margin-top: 9px;  width: 5px;}
+
+.pay_now b{font-size:12px; font-weight: normal;}
+
+.align-center{text-align:center}
+
+.pay_now ul{margin:0px;padding:0px}
+
+.pay_now ul li { color: #5c5c5c; font-size: 13px; list-style: outside none none; margin-bottom: 6px; text-align: left;}
+
+.pay_now h3 { border-bottom: 1px solid #dcdcdc; font-size: 20px; margin: 0 0 21px; padding-bottom: 10px;}
+
+.pay_now .banner{margin-bottom:50px}
+
+.pay_now .banner img{width:100%}
+
+.pay_now .left-align{float:left}
+
+.pay_now .right-align{float:right}
+
+.pay_now .header{ float: left;  width: 100%; background-color: #FEFF01}
+
+.pay_now .button_row{ float: left; height: 40px; margin: 30px 0; text-align: center;  width: 100%;letter-spacing: 1px;}
+
+.pay_btn{   background:#71C329; color: white; margin: 0 auto; padding: 13px 35px; text-decoration: none; text-transform: uppercase; border:0px; border-radius: 1em 1em 1em 1em; font-family: inherit;}
+	
+.pay_btn:hover, .pay_btn:focus {background: none repeat scroll 0 0 #89D555; border-radius: 1em 1em 1em 1em; font-family: inherit;}
+
+.header-content{float:left; width: 100%;}
+
+.header-content h3{border-top: 1px solid #ececec; color: #505050; padding: 10px 0 0; text-transform: uppercase; width:100%; border-bottom: none; margin: 10px 0; font-size: 18px;}	
+
+.clear-fix{clear:both;}
+
+.content-container {
+	padding: 0 20px;
+	border: 1px solid #AEDCC2;
+	color: #5c5c5c;
+	font-size: 12px;
+	background: none repeat scroll 0 0 #E6F3EB;
+}
+
+.content-container span {color:inherit;}
+
+.content-container  input, .content-container  select {border: 1px solid #AEDCC2; padding:2px;}
+
+.form-group {
+	width: 100%;
+	margin: 13px 0; 
+}
+.form-label {
+	width: 33%;	
+	display: inline-block;
+}
+
+.form-content {
+	width: 63%;	
+	display: inline-block;
+}
+.form-readonly {
+	width: 48%;	
+	display: inline-block;
+}
+.drpDown{
+	
+}
+
+#tb_detail td {font-size: 12px; padding: 5px 0;}
+
+div.ptxt {
+  position: relative;
+}
+
+div.ptxt .sectxt {
+  color: #000000;  
+  text-align: center;
+  padding: 0  20px;
+  display: inline-block;
+  position: absolute;  
+  line-height: 25px;
+font-sieze:10px;
+}
+
+div.ptxt .sectxt, div.ptxt .sectxt b {
+  font-weight: bold;
+  font-size: 10px;  
+}
+
+#igl-footer{
+	background-image: url("igl_footer.png");
+	background-repeat: no-repeat;
+	height: 84px;	
+	background-size: 100%;
+}
+
+#billdesk-footer {
+    background-color: yellow;
+/*    background-image: url("../../../pgmerc/instapay/images/billdeskpowerby.gif");*/
+    background-position: 99.5% 48%;
+    background-repeat: no-repeat;
+    height: 45px;
+    margin-top: -5px;
+    padding-left: 12px;
+    text-align: left;
+}
+  
+
+@media(max-width:480px){
+
+	.pay_now .left-align{ float: left;width:290px}
+
+	.pay_now .right-align {width:200px}
+
+	.pay_now .steps {display:inline-block;float:none}
+
+	.steps_div { display: block!important;text-align: center!important}
+		  
+	.pay_now .detail {display: table-cell; float: left; margin-left: 0; margin-top: 30px; vertical-align: top; width: 100%;}
+
+	.pay_now h1 {font-size:28px}
+	
+	.form-label { width: 100%; display: block;}
+
+	.form-content {width: 100%;	display: block;}
+	
+	.drpDown{width: 100%;}
+	
+	.form-group{display:table;}
+	.form-readonly {display: table-cell:}
+}
+
+	
+@media(max-width:959px){
+
+	.pay_now .container{width:100%;padding:0 15px}	
+	
+	.pay_now .steps_div {display:flex;display:-webkit-flex;}
+	
+}
